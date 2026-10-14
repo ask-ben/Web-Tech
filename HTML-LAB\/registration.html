@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="full-name">Your Full Name</label>
+            <input type="text" id="full-name" name="fullName" minlength="2" maxlength="100" placeholder="Enter your full name" autocomplete="name" required>
+        </div>
+			<br>
+        <div>
+            <label for="student-id"> Your Student ID</label>
+            <input type="text" id="student-id" name="studentId" minlength="3" maxlength="20" placeholder="Enter your student ID" required>
+        </div>
+			<br>
+        <div>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" maxlength="254" placeholder="name@example.com" autocomplete="email" required>
+        </div>
+			<br>
+        <div>
+            <label for="password">Your Password</label>
+            <input type="password" id="password" name="password" minlength="8" maxlength="64" placeholder="At least 8 characters" autocomplete="new-password" required>
+        </div>
+			<br>
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+			<br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="gender-female"><input type="radio" id="gender-female" name="gender" value="female" required> Female</label>
+            <label for="gender-male"><input type="radio" id="gender-male" name="gender" value="male"> Male</label>
+            <label for="gender-other"><input type="radio" id="gender-other" name="gender" value="other"> Other</label>
+            <label for="gender-prefer-not-to-say"><input type="radio" id="gender-prefer-not-to-say" name="gender" value="prefer-not-to-say"> Absolute Silence </label>
+        </fieldset>
+			<br>
+        <div>
+            <label for="program">Program</label>
+            <select id="program" name="program" required>
+                <option value="" disabled selected>Select a program</option>
+                <option value="computer-science">Computer Science</option>
+                <option value="business">Business</option>
+                <option value="engineering">Engineering</option>
+                <option value="arts">Arts and Humanities</option>
+                <option value="science">Science</option>
+            </select>
+        </div>
+			<br>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label for="hobby-reading"><input type="checkbox" id="hobby-reading" name="hobbies" value="reading"> Reading</label>
+            <label for="hobby-sports"><input type="checkbox" id="hobby-sports" name="hobbies" value="sports"> Sports</label>
+            <label for="hobby-music"><input type="checkbox" id="hobby-music" name="hobbies" value="music"> Music</label>
+            <label for="hobby-art"><input type="checkbox" id="hobby-art" name="hobbies" value="art"> Art</label>
+        </fieldset>
+			<br>
+        <div>
+            <label for="address">Address</label>
+            <textarea id="address" name="address" minlength="5" maxlength="300" placeholder="Enter your address" rows="4" required></textarea>
+        </div>
+			<br>
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" maxlength="500" placeholder="Additional comments (optional)" rows="4"></textarea>
+        </div>
+			<br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An article about the importance of web development skills.">
+    <title>The Importance of Web Development Skills</title>
+    <style>
+        body {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header,
+        nav,
+        footer {
+            padding: 1rem;
+            background-color: #6c0808;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        main {
+            padding: 1rem 0;
+        }
+
+        .content-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 3fr) minmax(200px, 1fr);
+            gap: 1rem;
+            align-items: start;
+        }
+
+        article,
+        aside {
+            padding: 1rem;
+            border: 5px solid #6c0808 ;
+        }
+
+        @media (max-width: 600px) {
+            .content-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learning for the Web</h1>
+        <p>Building useful skills for a connected world</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Why Web Development?</a></li>
+            <li><a href="#practice">Getting Started</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <section class="content-layout" aria-label="Article and related information">
+            <article>
+                <h2>The Importance of Web Development Skills</h2>
+                <p>Web development skills help people create and improve the websites and applications used every day. Understanding how the web works makes it easier to communicate ideas, solve problems, and take part in the digital world.</p>
+
+                <section id="skills">
+                    <h3>Skills with Lasting Value</h3>
+                    <p>Learning HTML, CSS, and JavaScript builds a foundation for creating accessible, well-organized, and interactive websites. These skills also strengthen attention to detail, logical thinking, and the ability to learn new tools.</p>
+                </section>
+
+                <section id="career">
+                    <h3>Opportunities in Many Fields</h3>
+                    <p>Web development is useful in more than technology careers. Businesses, schools, community groups, and independent creators all rely on websites to share information and reach people. Developers can work on teams, freelance, or build projects of their own.</p>
+                </section>
+
+                <section id="practice">
+                    <h3>Learning by Building</h3>
+                    <p>Small projects are a practical way to develop confidence. Start with a clear page structure, make it readable on different screen sizes, and improve it with feedback. Regular practice turns core concepts into skills that can be applied to bigger projects.</p>
+                </section>
+            </article>
+
+            <aside>
+                <h2>Quick Facts</h2>
+                <ul>
+                    <li>HTML gives content structure.</li>
+                    <li>CSS controls presentation.</li>
+                    <li>JavaScript adds interaction.</li>
+                    <li>Accessibility helps more people use the web.</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>HTML Semantic Elements</p>
+    </footer>
+</body>
+</html>
