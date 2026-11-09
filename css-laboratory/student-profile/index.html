@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Dela Cruz | Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <h1>Juan Dela Cruz</h1>
+        <p>First-year Information Technology student learning to build clean, accessible websites with HTML and CSS.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-content">
+                <img src="images/profile.jpg" alt="Portrait of Juan Dela Cruz smiling at the camera" class="profile-img">
+                <p>I'm a student who enjoys turning ideas into working web pages. I'm currently learning front-end development and I like solving layout problems, from small spacing fixes to responsive designs that work on any screen.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3 and Flexbox</li>
+                <li>Responsive design</li>
+                <li>Git and GitHub</li>
+                <li>VS Code and Emmet</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>CSS Laboratory</h3>
+                    <p>Five labs covering selectors, text styling, the box model, and Flexbox.</p>
+                </div>
+                <div class="card">
+                    <h3>Personal Profile Page</h3>
+                    <p>This responsive page, built with semantic HTML and an external stylesheet.</p>
+                </div>
+                <div class="card">
+                    <h3>Study Schedule Planner</h3>
+                    <p>A simple weekly planner layout designed for phones and desktops.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Juan Dela Cruz</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* Laboratory 4 - box model */
+* {
+    box-sizing: border-box;   /* width includes padding and border */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.card {
+    width: 280px;
+    padding: 24px;                    /* increased from 20px */
+    margin: 16px;                     /* increased from 10px */
+    border: 1px solid #b8c4d6;        /* subtle border color */
+    border-radius: 8px;
+    background-color: #fbfcfe;        /* subtle background tint */
+    display: inline-block;            /* lets cards sit side by side so margin is visible */
+    vertical-align: top;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #14325c;
+}
+
+.card p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}

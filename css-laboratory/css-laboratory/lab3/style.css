@@ -1,0 +1,45 @@
+/* Laboratory 3 - text, colors, backgrounds
+   Color scheme (4 primary colors):
+     1. Light gray-blue  #f4f6f8  (background)
+     2. Dark blue        #0b2e59  (main heading)
+     3. Dark green       #1b5e3a  (section headings)
+     4. Link blue        #145da0  (links)
+   Body text is near-black (#222) for strong contrast. */
+
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #0b2e59;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1b5e3a;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #145da0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

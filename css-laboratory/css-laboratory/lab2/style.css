@@ -1,0 +1,43 @@
+/* Laboratory 2 - selectors */
+
+/* Element selectors */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    text-transform: uppercase;      /* Task 1: uppercase heading */
+}
+
+/* ID selector (one unique element) */
+#page-title {
+    text-align: center;
+}
+
+/* Class selector (reusable) */
+.card {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #888888;      /* Task 2: border on each card */
+}
+
+/* Descendant selector */
+.card p {
+    color: #444444;
+}
+
+/* Task 3: separate class for one paragraph.
+   Written as ".card p.highlight" so it is MORE specific than ".card p"
+   and wins; plain ".highlight" would lose to ".card p". */
+.card p.highlight {
+    color: #b00020;
+    font-weight: bold;
+}
+
+/* Task 4: grouping selector - shared style for h2 and h3 */
+h2, h3 {
+    color: #1d5c3b;
+    font-family: Georgia, serif;
+}
